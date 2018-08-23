@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header .navigation {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  }
+
+header .logo {
+  display: inline-flex;
+  color: MediumAquamarine;
+  align-items: center;
+}
