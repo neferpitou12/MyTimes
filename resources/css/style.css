@@ -3,16 +3,36 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
-header .navigation {
-  display: inline-flex;
-  justify-content:                                                                                             flex-end;
-  align-items: center;
-  }
-
-header .logo {
+.logo {
   display: inline-flex;
   color: MediumAquamarine;
   align-items: center;
+  padding: 5px 35px;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+}
+
+.content {
+  display: flex;
+  
+}
+
+
+.navigation span {
+  align-items: center;
+  margin: 10px;
+}
+
+.navigation a {
+  color: black;
 }
