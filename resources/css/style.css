@@ -8,6 +8,10 @@ header {
   border-bottom: 1px solid black;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .logo {
   display: inline-flex;
   color: MediumAquamarine;
@@ -24,7 +28,6 @@ header {
 
 .content {
   display: flex;
-  
 }
 
 
