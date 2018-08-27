@@ -12,6 +12,18 @@ div {
   border: 1px solid black;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1,h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .logo {
   display: inline-flex;
   color: MediumAquamarine;
@@ -27,9 +39,36 @@ div {
 }
 
 .content {
+  display: inline-flex;
+  width: 100%
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mother-img {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.cats-img {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   display: flex;
 }
 
+.earth {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  display: flex;
+}
+
+.cameras {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  display: flex;
+}
 
 .navigation span {
   align-items: center;
@@ -40,14 +79,29 @@ div {
   color: black;
 }
 
-.column.large {
+.large {
   width: 630px;
+  flex-wrap: wrap;
 }
 
-.column.medium {
+.medium {
   width: 300px;
 }
 
-.column.small {
+.small {
   width: 240px;
+}
+
+.white h2 {
+  color: white;
+}
+
+.mother h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.story {
+  width: 300px;
+  display: inline-block;
 }
