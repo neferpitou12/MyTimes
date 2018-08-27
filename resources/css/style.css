@@ -8,10 +8,6 @@ header {
   border-bottom: 1px solid black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -142,4 +138,9 @@ h3 {
 .left,.right {
   display: flex;
   flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
 }
